@@ -1,32 +1,32 @@
 [
     {
         
-        "reflection": "Retrieval Practice",
+        "reflection": "Retrieval",
         "name": "Start/Prompt",
         "text": "[Your original prompt, for example: I am an 11th grade student who is preparing for a biology test on cellular energetics including photosynthesis. I need to know about enzymes and energy. I need to be able to explain diagrams (e.g. Calvin Cycle, Krebs Cycle, factors effective photosynthesis etc).]\nNot only do I need to learn this material, but I would also like to periodically take metacognition breaks where I will prompt you to help me think about my thinking so I can 1) better learn and recall this information and also 2) learn new concepts more deeply and efficiently in the future."
     },
     {
-        "reflection": "Retrieval Practice",
+        "reflection": "Retrieval",
         "name": "A1",
         "text": "What do I already know about this subject matter?"
     },
     {
-        "reflection": "Retrieval Practice",
+        "reflection": "Retrieval",
         "name": "A2",
         "text": "How can I break up the skills I need to learn this topic into several containers that can help me bundle the topics and break my learning down into manageable chunks. Right now I am not asking about content, just skills."
     },
     {
-        "reflection": "Retrieval Practice",
+        "reflection": "Retrieval",
         "name": "A3",
         "text": "How can I break up the content I need to learn into several containers that can help me bundle the topics and break my learning down into manageable chunks. Right now I am not asking about skills, just content."
     },
     {
-        "reflection": "Spaced Practice",
+        "reflection": "Spaced",
         "name": "A4",
         "text": "What do I think my strengths/weaknesses are in this area of learning? How can I play to my strengths and shore up my weaknesses?"
     },
     {
-        "reflection": "Spaced Practice",
+        "reflection": "Spaced",
         "name": "A5",
         "text": "What goals should I set for both myself and you (the AI) to ensure effective collaboration? How should I allocate my study time between independent learning and using AI assistance to maximize efficiency?"
     },
@@ -81,42 +81,42 @@
         "text": "Please provide an acronym and an analogy to help me remember topic/concept"
     },
     {
-        "reflection": "Cognitive Load",
+        "reflection": "Cognitive",
         "name": "E2a",
         "text": "How can I apply what I learned in this session to future tasks or subjects?"
     },
     {
-        "reflection": "Cognitive Load",
+        "reflection": "Cognitive",
         "name": "E2b",
         "text": "Provide a real world example of this topic in action and ask me to evaluate it based on what I learned"
     },
     {
-        "reflection": "Cognitive Load",
+        "reflection": "Cognitive",
         "name": "E3",
         "text": "Design a rubric to evaluate whether or not I understand this topic. Provide questions for me to answer about the topic and then use this rubric to evaluate my learning and growth"
     },
     {
-        "reflection": "Cognitive Load",
+        "reflection": "Cognitive",
         "name": "E4",
         "text": "What were my strengths and weaknesses learning about this topic? Give specific examples. How does this compare to what I reported at the beginning of this conversation?"
     },
     {
-        "reflection": "Cognitive Load",
+        "reflection": "Cognitive",
         "name": "E5",
         "text": "Did I show any biases or fall into any thinking traps?"
     },
     {
-        "reflection": "Cognitive Load",
+        "reflection": "Cognitive",
         "name": "E6",
         "text": "What feedback did I receive, and did I use it to improve my understanding of how I learn? What did I miss?"
     },
     {
-        "reflection": "Cognitive Load",
+        "reflection": "Cognitive",
         "name": "E7",
         "text": "Did I rely too much on you (the AI) to learn and develop skills? How do I strike the right balance?"
     },
     {
-        "reflection": "Cognitive Load",
+        "reflection": "Cognitive",
         "name": "E8",
         "text": "Check the above transcript for evidence of metacognition (or a lack thereof) and provide examples."
     }
