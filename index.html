@@ -105,21 +105,15 @@
     <p>Select filters to view prompts. Click on a prompt to copy it to your clipboard.</p>
 
     <div class="filter-bar">
-        <!-- Timing filters -->
-        <button class="filter-button timing-start" onclick="toggleFilter(this, 'Start')">Start</button>
-        <button class="filter-button timing-beginning" onclick="toggleFilter(this, 'Beginning')">Beginning</button>
-        <button class="filter-button timing-middle" onclick="toggleFilter(this, 'Middle')">Middle</button>
-        <button class="filter-button timing-end" onclick="toggleFilter(this, 'End')">End</button>
-
+     
         <!-- Reflection area filters -->
-        <button class="filter-button awareness" onclick="toggleFilter(this, 'Awareness')">Awareness</button>
-        <button class="filter-button planning" onclick="toggleFilter(this, 'Planning')">Planning</button>
-        <button class="filter-button monitoring" onclick="toggleFilter(this, 'Monitoring')">Monitoring</button>
-        <button class="filter-button evaluation" onclick="toggleFilter(this, 'Evaluation')">Evaluation</button>
+        <button class="filter-button Retrieval Practice" onclick="toggleFilter(this, 'Retrieval Practice')">Retrieval Practice</button>
+        <button class="filter-button Spaced Practice" onclick="toggleFilter(this, 'Spaced Practice')">Spaced Practice</button>
+        <button class="filter-button Metacognition" onclick="toggleFilter(this, 'Metacognition')">Metacognition</button>
+        <button class="filter-button Feedback" onclick="toggleFilter(this, 'Feedback')">Feedback</button>
+        <button class="filter-button Interleaving" onclick="toggleFilter(this, 'Interleaving')">Interleaving</button>
+        <button class="filter-button Cognitive Load" onclick="toggleFilter(this, 'Cognitive Load')">Cognitive Load</button>
 
-        <!-- Learning focus filters -->
-        <button class="filter-button learning-what" onclick="toggleFilter(this, 'What I learn')">What I learn</button>
-        <button class="filter-button learning-how" onclick="toggleFilter(this, 'How I learn')">How I learn</button>
     </div>
 
     <div class="prompt-container" id="promptContainer">
@@ -147,7 +141,7 @@
         displayPrompts(prompts); // Call the function to display the prompts
     }
 
-    const filterNames = ['Start', 'Beginning', 'Middle', 'End', 'Awareness', 'Planning', 'Monitoring', 'Evaluation', "What I learn", "How I learn"]
+    const filterNames = ['Retrieval Practice', 'Spaced Practice', 'Metacognition', 'Feedback', 'Interleaving', 'Cognitive Load']
 
         const selectedFilters = {}
         filterNames.forEach( (filter) => {
@@ -169,12 +163,9 @@
 
             const filteredPrompts = prompts.filter(prompt => 
                 // Determine if any of the filters is on for the given prompt
-                !selectedFilters[prompt.timing] && 
-                !selectedFilters[prompt.reflection] &&
-                !selectedFilters[prompt.learning]
-                // (!selectedFilters.timing || prompt.timing === selectedFilters.timing) &&
-                // (!selectedFilters.reflection || prompt.reflection === selectedFilters.reflection) &&
-                // (!selectedFilters.learning || prompt.learning === selectedFilters.learning)
+                
+                !selectedFilters[prompt.reflection] 
+                // (!selectedFilters.reflection || prompt.reflection === selectedFilters.reflection)
             );
 
             filteredPrompts.forEach(prompt => {
