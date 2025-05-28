@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Metacognitive Injections&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: Arial, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f8f9fa;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #333;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.filter-bar {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.filter-button {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: transform 0.2s, background-color 0.3s;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.filter-button:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: scale(1.05);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.prompt-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 800px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.prompt-card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: space-between;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: background-color 0.3s;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.prompt-card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0.9;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Color themes */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.awareness { background-color: #664200; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.planning { background-color: #AA320E; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.monitoring { background-color: #5941A9; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.evaluation { background-color: #0B5351; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timing-start { background-color: #6262F8; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.filter-button.timing-beginning { background-color: #4F4FF8; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.filter-button.timing-middle { background-color: #0A0AEB; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.filter-button.timing-end { background-color: #060689; }</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.filter-button.learning-what { background-color: #C06906; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.filter-button.learning-how { background-color: #F88C12; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Display the "active filters" (actively being removed, that is) as lighter */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.filter-button.active {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #BFBCBA;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>/* opacity: 0.5; */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #fff; /* White text for better contrast */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hidden { display: none; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Banner styling */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.copy-banner {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: fixed;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateX(-50%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #00796b;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: opacity 0.5s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>pointer-events: none;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.copy-banner.show {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 1;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Metacognitive Injections&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Select filters to view prompts. Click on a prompt to copy it to your clipboard.&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="filter-bar"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Timing filters --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="filter-button timing-start" onclick="toggleFilter(this, 'Start')"&gt;Start&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="filter-button timing-beginning" onclick="toggleFilter(this, 'Beginning')"&gt;Beginning&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="filter-button timing-middle" onclick="toggleFilter(this, 'Middle')"&gt;Middle&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="filter-button timing-end" onclick="toggleFilter(this, 'End')"&gt;End&lt;/button&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Reflection area filters --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="filter-button awareness" onclick="toggleFilter(this, 'Awareness')"&gt;Awareness&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="filter-button planning" onclick="toggleFilter(this, 'Planning')"&gt;Planning&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="filter-button monitoring" onclick="toggleFilter(this, 'Monitoring')"&gt;Monitoring&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="filter-button evaluation" onclick="toggleFilter(this, 'Evaluation')"&gt;Evaluation&lt;/button&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Learning focus filters --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="filter-button learning-what" onclick="toggleFilter(this, 'What I learn')"&gt;What I learn&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="filter-button learning-how" onclick="toggleFilter(this, 'How I learn')"&gt;How I learn&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="prompt-container" id="promptContainer"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Prompts go here. Below is a sample structure for each prompt card. --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Inject JavaScript-generated prompt cards here --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Copy confirmation banner --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="copy-banner" id="copyBanner"&gt;Prompt copied to clipboard!&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>var prompts = [];</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.addEventListener("DOMContentLoaded", () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>fetch('metacognitive_injections.json')</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.then(response =&gt; response.json())</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.then(data =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>initializePrompts(data); // Call the function to display prompts with the loaded data</p>
+<p class="p1"><span class="Apple-converted-space">            </span>})</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.catch(error =&gt; console.error('Error loading JSON:', error));</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function initializePrompts(data) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>prompts = data; // The data is now loaded into `prompts`</p>
+<p class="p1"><span class="Apple-converted-space">        </span>displayPrompts(prompts); // Call the function to display the prompts</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>const filterNames = ['Start', 'Beginning', 'Middle', 'End', 'Awareness', 'Planning', 'Monitoring', 'Evaluation', "What I learn", "How I learn"]</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>const selectedFilters = {}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>filterNames.forEach( (filter) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>selectedFilters[filter] = false</p>
+<p class="p1"><span class="Apple-converted-space">        </span>})</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function toggleFilter(button, filter) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Toggle active class for button</p>
+<p class="p1"><span class="Apple-converted-space">            </span>button.classList.toggle('active');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>selectedFilters[filter] = !selectedFilters[filter]<span class="Apple-converted-space"> </span></p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>displayPrompts();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function displayPrompts() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const container = document.getElementById('promptContainer');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>container.innerHTML = '';</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const filteredPrompts = prompts.filter(prompt =&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// Determine if any of the filters is on for the given prompt</p>
+<p class="p1"><span class="Apple-converted-space">                </span>!selectedFilters[prompt.timing] &amp;&amp;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>!selectedFilters[prompt.reflection] &amp;&amp;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>!selectedFilters[prompt.learning]</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// (!selectedFilters.timing || prompt.timing === selectedFilters.timing) &amp;&amp;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// (!selectedFilters.reflection || prompt.reflection === selectedFilters.reflection) &amp;&amp;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// (!selectedFilters.learning || prompt.learning === selectedFilters.learning)</p>
+<p class="p1"><span class="Apple-converted-space">            </span>);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>filteredPrompts.forEach(prompt =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const promptCard = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>promptCard.classList.add('prompt-card', prompt.reflection.toLowerCase());</p>
+<p class="p1"><span class="Apple-converted-space">                </span>promptCard.innerText = `${prompt.name}:\n\n${prompt.text}`;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>promptCard.addEventListener('click', () =&gt; copyToClipboard(prompt.text));</p>
+<p class="p1"><span class="Apple-converted-space">                </span>container.appendChild(promptCard);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function copyToClipboard(text) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>navigator.clipboard.writeText(text)</p>
+<p class="p1"><span class="Apple-converted-space">                </span>.then(() =&gt; showBanner())</p>
+<p class="p1"><span class="Apple-converted-space">                </span>.catch(err =&gt; console.error('Error copying text: ', err));</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function showBanner() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const banner = document.getElementById('copyBanner');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>banner.classList.add('show');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>setTimeout(() =&gt; banner.classList.remove('show'), 2000); // Show for 2 seconds</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Initial display of all prompts</p>
+<p class="p1"><span class="Apple-converted-space">        </span>displayPrompts();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
