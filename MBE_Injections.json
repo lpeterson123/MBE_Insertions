@@ -2,17 +2,17 @@
     {
         
         "reflection": "Retrieval",
-        "name": "Start/Prompt",
+        "name": "Short R1",
         "text": "[Your original prompt, for example: I am an 11th grade student who is preparing for a biology test on cellular energetics including photosynthesis. I need to know about enzymes and energy. I need to be able to explain diagrams (e.g. Calvin Cycle, Krebs Cycle, factors effective photosynthesis etc).]\nNot only do I need to learn this material, but I would also like to periodically take metacognition breaks where I will prompt you to help me think about my thinking so I can 1) better learn and recall this information and also 2) learn new concepts more deeply and efficiently in the future."
     },
     {
         "reflection": "Retrieval",
-        "name": "A1",
+        "name": "Medium R1",
         "text": "What do I already know about this subject matter?"
     },
     {
         "reflection": "Retrieval",
-        "name": "A2",
+        "name": "Long R1",
         "text": "How can I break up the skills I need to learn this topic into several containers that can help me bundle the topics and break my learning down into manageable chunks. Right now I am not asking about content, just skills."
     },
     {
@@ -22,102 +22,102 @@
     },
     {
         "reflection": "Spaced",
-        "name": "A4",
+        "name": "Short S1",
         "text": "What do I think my strengths/weaknesses are in this area of learning? How can I play to my strengths and shore up my weaknesses?"
     },
     {
         "reflection": "Spaced",
-        "name": "A5",
+        "name": "Medium S2",
         "text": "What goals should I set for both myself and you (the AI) to ensure effective collaboration? How should I allocate my study time between independent learning and using AI assistance to maximize efficiency?"
     },
     {
         "reflection": "Metacognition",
-        "name": "A6",
+        "name": "Short M1",
         "text": "What can I delegate to you (the AI), and what do I need to do myself?"
     },
     {
         "reflection": "Metacognition",
-        "name": "P1",
+        "name": "Medium M2",
         "text": "Am I staying focused on both skill and content development while I\u2019m learning with AI? How can I ensure I do this?"
     },
     {
         "reflection": "Feedback",
-        "name": "P2",
+        "name": "Short F1",
         "text": "What learning strategies can I employ in addition to using AI to deepen my comprehension of the material?"
     },
     {
         "reflection": "Feedback",
-        "name": "P3",
+        "name": "Medium F2",
         "text": "What challenges might I face in terms of how well I can learn and recall the information about this topic?"
     },
     {
         "reflection": "Interleaving",
-        "name": "M1",
+        "name": "Short I1",
         "text": "How will I monitor my understanding and progress throughout this session? And when will I adjust my plan if needed?"
     },
     {
         "reflection": "Interleaving",
-        "name": "M2",
+        "name": "Medium I2",
         "text": "In this conversation, are you (AI) providing feedback to improve my learning? How can I use it more effectively?"
     },
     {
         "reflection": "Interleaving",
-        "name": "M3",
+        "name": "Medium I3",
         "text": "Are your (the AI\u2019s) responses successfully meeting my expectations? How can I adjust my instructions and feedback to improve your responses?"
     },
     {
         "reflection": "Interleaving",
-        "name": "M4",
+        "name": "Medium I4",
         "text": "What assumptions am I making about this topic and my knowledge and skills? Are these getting in the way of my learning?"
     },
     {
         "reflection": "Interleaving",
-        "name": "E1a",
+        "name": "Long I5",
         "text": "Compare and contrast this topic/concept with a topic I learned previously in this course"
     },
     {
         "reflection": "Interleaving",
-        "name": "E1b",
+        "name": "Long I6",
         "text": "Please provide an acronym and an analogy to help me remember topic/concept"
     },
     {
         "reflection": "Cognitive",
-        "name": "E2a",
+        "name": "Short C1",
         "text": "How can I apply what I learned in this session to future tasks or subjects?"
     },
     {
         "reflection": "Cognitive",
-        "name": "E2b",
+        "name": "Short C2",
         "text": "Provide a real world example of this topic in action and ask me to evaluate it based on what I learned"
     },
     {
         "reflection": "Cognitive",
-        "name": "E3",
+        "name": "Short C3",
         "text": "Design a rubric to evaluate whether or not I understand this topic. Provide questions for me to answer about the topic and then use this rubric to evaluate my learning and growth"
     },
     {
         "reflection": "Cognitive",
-        "name": "E4",
+        "name": "Short C4",
         "text": "What were my strengths and weaknesses learning about this topic? Give specific examples. How does this compare to what I reported at the beginning of this conversation?"
     },
     {
         "reflection": "Cognitive",
-        "name": "E5",
+        "name": "Short C5",
         "text": "Did I show any biases or fall into any thinking traps?"
     },
     {
         "reflection": "Cognitive",
-        "name": "E6",
+        "name": "Medium C6",
         "text": "What feedback did I receive, and did I use it to improve my understanding of how I learn? What did I miss?"
     },
     {
         "reflection": "Cognitive",
-        "name": "E7",
+        "name": "Long C7",
         "text": "Did I rely too much on you (the AI) to learn and develop skills? How do I strike the right balance?"
     },
     {
         "reflection": "Cognitive",
-        "name": "E8",
+        "name": "Long C8",
         "text": "Check the above transcript for evidence of metacognition (or a lack thereof) and provide examples."
     }
 ]
