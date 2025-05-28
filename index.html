@@ -128,7 +128,7 @@
         var prompts = [];
 
         document.addEventListener("DOMContentLoaded", () => {
-        fetch('MBE_injections.json')
+        fetch('MBE_Injections.json')
             .then(response => response.json())
             .then(data => {
                 initializePrompts(data); // Call the function to display prompts with the loaded data
